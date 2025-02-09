@@ -22,7 +22,7 @@ class CustomScreenLockTimerSelectDialog : DialogFragment() {
     val dialogView: View = LayoutInflater.from(context).inflate(R.layout.custom_expire_timer_select_dialog, null, false)
 
     selector = dialogView.findViewById(R.id.custom_expire_timer_select_dialog_selector)
-    selector.setUnits(1, 3, R.array.CustomScreenLockTimerSelectorView__unit_labels)
+    selector.setUnits(0, 3, R.array.CustomScreenLockTimerSelectorView__unit_labels)
     selector.setTimer(viewModel.state.value.screenLockActivityTimeout.toInt())
 
     return MaterialAlertDialogBuilder(requireContext())

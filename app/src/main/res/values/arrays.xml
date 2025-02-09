@@ -375,6 +375,7 @@
     </integer-array>
 
     <string-array name="CustomScreenLockTimerSelectorView__unit_labels">
+        <item>@string/CustomExpireTimerSelectorView__seconds</item>
         <item>@string/CustomExpireTimerSelectorView__minutes</item>
         <item>@string/CustomExpireTimerSelectorView__hours</item>
         <item>@string/CustomExpireTimerSelectorView__days</item>
